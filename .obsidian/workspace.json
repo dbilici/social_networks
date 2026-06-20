@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "b9b1442b21eb05d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5b0651321378935",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfd0751c134cad77",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0df15f15d9883d57",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e5f955fd4950718",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "871e01db2207ee55",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5590a1a72ab6ae3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4988bf4d635d59ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1934abfae66c0872",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6d5332a5f3df553",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "608b7648969a5c6b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "76a560ded520c614",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c934d4cd3318aa07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cc4ce23e385db79e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c01f630998ee3ad8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "eb893d90892295fd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "dfd0751c134cad77",
+  "lastOpenFiles": [
+    "05 - Term Project/Term Project.md",
+    "Welcome.md",
+    "Course Info.md",
+    "BİL403 — Home.md",
+    "06 - References/References.md",
+    "06 - References",
+    "05 - Term Project",
+    "04 - Lab & Code/Lab MOC.md",
+    "04 - Lab & Code",
+    "03 - Exercises/Exercises — Graph Theory 3.md",
+    "03 - Exercises/Exercises — Graph Theory 2.md",
+    "03 - Exercises/Exercises — Graph Theory 1.md",
+    "03 - Exercises",
+    "02 - Concepts/Intro & History/Intro to Social Networks & History.md",
+    "02 - Concepts/Intro & History",
+    "02 - Concepts/Graph Theory/Subgraphs.md",
+    "02 - Concepts/Graph Theory/Special Graphs.md",
+    "02 - Concepts/Graph Theory/Self-Complementary Graphs.md",
+    "02 - Concepts/Graph Theory/Paths, Circuits and Walks.md",
+    "02 - Concepts/Graph Theory/Incidence Matrix.md",
+    "02 - Concepts/Graph Theory/Handshaking Theorem.md",
+    "02 - Concepts/Graph Theory/Graph — Basic Definitions.md",
+    "02 - Concepts/Graph Theory/Graph Types.md",
+    "02 - Concepts/Graph Theory/Graph Operations.md",
+    "02 - Concepts/Graph Theory/Graph Isomorphism.md",
+    "02 - Concepts/Graph Theory/Distance and Diameter.md",
+    "02 - Concepts/Graph Theory/Degree Sequences and Havel–Hakimi.md",
+    "02 - Concepts/Graph Theory/Counting Paths.md",
+    "02 - Concepts/Graph Theory/Connectivity Measures.md",
+    "02 - Concepts/Graph Theory/Connectedness in Directed Graphs.md",
+    "02 - Concepts/Graph Theory/Connectedness and Components.md",
+    "02 - Concepts/Graph Theory",
+    "02 - Concepts",
+    "01 - Inbox",
+    "social_networks/06 - References",
+    "social_networks/05 - Term Project"
+  ]
+}
