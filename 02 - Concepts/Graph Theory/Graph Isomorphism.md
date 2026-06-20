@@ -46,7 +46,7 @@ Isomorphic graphs **must be equal** in:
 > E.g. writing $A_G$ in the order $u_1 u_2 u_3 u_4 u_5 u_6$ and $A_H$ in the order $v_6 v_3 v_4 v_5 v_1 v_2$ makes the two matrices **exactly equal**. → [[Adjacency List and Matrix]]
 
 > [!tip] Practical shortcut
-> In practice we may treat "isomorphism $=$ equality". The number of non-isomorphic graphs for small $m$: $m=1 \to 1$, $m=2 \to 2$, $m=3 \to 4$, $m=4 \to 11$.
+> In practice we may treat "isomorphism $=$ equality". The number of non-isomorphic graphs grows explosively with the number of **vertices** $n$: $n=1 \to 1$, $n=2 \to 2$, $n=3 \to 4$, $n=4 \to 11$, $n=5 \to 34$ (OEIS A000088). *(Note: this count is by order $n$, not by size $m$.)*
 
 ---
 > [!tip]- Code (NetworkX)

@@ -31,6 +31,10 @@ Related: [[Adjacency List and Matrix]] · [[Paths, Circuits and Walks]] · [[Dis
 > a,b,d,b,d   a,c,a,c,d
 > a,c,d,b,d   a,c,d,c,d
 > ```
+>
+> The **odd** power $A^3$ (also computed in lecture) has the *complementary* pattern, because this graph is bipartite with parts $\{a,d\}$ and $\{b,c\}$:
+> $$A^3 = \begin{pmatrix} 0&4&4&0 \\ 4&0&0&4 \\ 4&0&0&4 \\ 0&4&4&0 \end{pmatrix}$$
+> So $A^3_{ad} = 0$ (no odd-length $a$–$d$ walk) while $A^3_{ab} = 4$. The **all-zero diagonal** confirms a bipartite graph has no odd closed walks — cf. the tip below.
 
 > [!warning] Caution
 > These are **walks** (repeated vertices/edges allowed), not "simple paths" in the classical sense. $A^r$ counts repetitions too.

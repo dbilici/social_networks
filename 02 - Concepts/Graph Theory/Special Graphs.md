@@ -73,14 +73,14 @@ $$n=n,\quad m=n-1,\quad \delta=1,\quad \Delta=2$$
 
 - $K_n$ graphs are **$(n-1)$-regular**.
 - A **3-regular** graph is called a **cubic** graph; $K_4$ is cubic.
-- **Petersen graphs** are well-known cubic graphs.
+- The **Petersen graph** is a well-known cubic graph.
 
 ---
 > [!tip]- Code (NetworkX)
 > ```python
 > nx.complete_graph(5)        # K5
 > nx.cycle_graph(6)           # C6
-> nx.wheel_graph(6)           # wheel (center + 6-cycle)
+> nx.wheel_graph(6)           # hub + C5 = W5 here (NetworkX arg = total nodes, so our W_n = wheel_graph(n+1))
 > nx.hypercube_graph(3)       # Q3
 > nx.path_graph(4)            # P4
 > nx.petersen_graph()         # Petersen (cubic)
